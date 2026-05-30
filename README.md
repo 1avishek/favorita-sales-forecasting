@@ -11,8 +11,16 @@ This project applies time-series forecasting techniques to analyze and predict g
 ```
 AI_project_2/
 ├── favorita_forecasting.ipynb   # Main Jupyter notebook with EDA & model training
-├── submission.csv               # Forecasted predictions for submission
-└── timesass/                    # Time series analysis assets/utilities
+├── data/
+│   └── favorita-grocery-sales-forecasting/
+│       ├── train.csv/
+│       ├── test.csv/
+│       ├── items.csv/
+│       ├── stores.csv/
+│       ├── transactions.csv/
+│       ├── oil.csv/
+│       └── holidays_events.csv/
+└── notebooks/
 ```
 
 ## 🚀 Features
@@ -33,6 +41,13 @@ AI_project_2/
 ## 📊 Dataset
 
 Based on the [Kaggle Favorita Grocery Sales Forecasting](https://www.kaggle.com/c/favorita-grocery-sales-forecasting) competition dataset.
+Most dataset CSVs are tracked with Git LFS because `test.csv` is too large for regular GitHub blobs. The full `train.csv` file is intentionally excluded because it is about 5 GB, which is above GitHub's LFS object limit for this account. Submission output files are also excluded.
+
+Place the Kaggle `train.csv` file at:
+
+```text
+data/favorita-grocery-sales-forecasting/train.csv/train.csv
+```
 
 ## 🏃 Getting Started
 

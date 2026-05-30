@@ -18,17 +18,20 @@ ENV/
 # Jupyter
 .ipynb_checkpoints/
 
-# Data / models
+# Generated outputs / models
 *.pkl
 *.h5
 *.pt
 *.pth
-*.csv
 *.tsv
 *.sqlite3
 *.db
 *.mp4
 *.MOV
+submission.csv
+**/submission.csv
+**/sample_submission.csv
+data/favorita-grocery-sales-forecasting/train.csv/
 
 # OS
 .DS_Store
