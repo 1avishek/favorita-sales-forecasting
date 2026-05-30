@@ -11,6 +11,7 @@ This project applies time-series forecasting techniques to analyze and predict g
 ```
 AI_project_2/
 ├── favorita_forecasting.ipynb   # Main Jupyter notebook with EDA & model training
+├── favorita_forecasting.md      # GitHub-readable notebook export
 ├── data/
 │   └── favorita-grocery-sales-forecasting/
 │       ├── train.csv/
@@ -62,6 +63,8 @@ pip install pandas numpy scikit-learn matplotlib seaborn jupyter
 # Launch notebook
 jupyter notebook favorita_forecasting.ipynb
 ```
+
+If GitHub's notebook preview is unavailable, open `favorita_forecasting.md` to read the notebook code directly in the browser.
 
 ## 📄 License
 
